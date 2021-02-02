@@ -24,14 +24,14 @@ SierraID      sample name on Sierra                name in manuscript
 
 - we will take a look, collate all necessary files and return to you a the metadata spreadsheet (see below) to fill in the details
 
-- please **do not** start by filling in the metadata spreadsheet with filenames and details, as this will make it much harder for us to produce the spreadsheet, and is also considerably more prone to errors.
+- please **do not** start by filling in the metadata spreadsheet with filenames and details, as this will make it much harder for us to produce the spreadsheet, and it is also considerably more prone to errors.
 
 
 ## Quantified files
 
 The quantitation can more or less be anything that you deem useful for your data. In all cases, the file format and its contents need to be described in a way that leaves no doubts (e.g. the RNA-seq report is a tab-delimited text file (SeqMonk Annotated Probe report) showing log2 RPM values for each gene (Ensembl GeneID)).
 
-peak quantitation for ChIP and percent methylation over whatever windows you used for methylation data.
+It is **absolutely critical** that the samples in the quantified data have (or at least contain) the same sample name as is mentioned in the metadata spreadsheet (under "Title"). Furthermore, the number of quantified samples has to **match up exactly** with the number of submitted raw samples. As a practical example this could mean that if you exlude some single-cell samples because of failing QC metrics, you need to exclude them in **both** the raw **and** quantified files.
 
 ### Bisulfite-seq 
 

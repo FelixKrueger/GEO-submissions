@@ -1,6 +1,8 @@
-# GEO-submissions
+# Notes regarding GEO submissions
 
-Here are some notes about GEO submissions; some are more general, others are specifically tailored towards submissions at the Babraham Institute. The entire submission process is described in detail over at the [GEO high-throughput sequencing data submission](https://www.ncbi.nlm.nih.gov/geo/info/seq.html) pages, here we focus on the more practical implications. While GEO handles the metadata and quantitation of your submission, the raw sequencing data itself is handled by the [Sequencing Read Archive](https://www.ncbi.nlm.nih.gov/sra), and will be available via the [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?), the European [ENA](https://www.ebi.ac.uk/ena/browser/home) or the Japanese [DDBJ](https://www.ddbj.nig.ac.jp/dra/index-e.html). For a quick look and easy way to retrieve raw data from the SRA take a look at the [SRA-Explorer](https://sra-explorer.info/).
+Here are some notes about GEO submissions; some are more general, others are specifically tailored towards submissions at the Babraham Institute.
+
+The entire submission process is described in detail over at the [GEO high-throughput sequencing data submission](https://www.ncbi.nlm.nih.gov/geo/info/seq.html) pages, here we focus on the more practical implications. While GEO handles the metadata and quantitation of your submission, the raw sequencing data itself is handled by the [Sequencing Read Archive](https://www.ncbi.nlm.nih.gov/sra), and will be available via the [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?), the European [ENA](https://www.ebi.ac.uk/ena/browser/home) or the Japanese [DDBJ](https://www.ddbj.nig.ac.jp/dra/index-e.html). For a quick look and easy way to retrieve raw data from the SRA take a look at the [SRA-Explorer](https://sra-explorer.info/).
 
 To submit sequencing data to the GEO repository you will need:
  - raw sequencing data (`FastQ` files), as well as 

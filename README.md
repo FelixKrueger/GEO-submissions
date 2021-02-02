@@ -49,10 +49,7 @@ Acceptable here would be peak calling files and/or annotation, but also a tiled-
 
 ## The metadata spreadsheet
 
-A template for the metadata spreadsheet can be downloaded from GEO here: https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx
-This is really just for your information, we will 
-
-
+A template for the metadata spreadsheet can be [downloaded from GEO](https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx). This is really just for your information, as we will aim to send you this spreadsheet once it has been populated with the technical information about files, their md5sums etc.
 
 
 ### Reviewer token

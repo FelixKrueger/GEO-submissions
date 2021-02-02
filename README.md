@@ -5,9 +5,22 @@ Here are some notes about GEO submissions; some are more general, others are spe
 https://www.ncbi.nlm.nih.gov/geo/info/seq.html
 
 
+To submit to these repositories you'll need all of the raw (fastq) sequence data, plus some kind of quantitation.  The quantitation can be anything, but we'd normally use per gene expression measures for RNA-Seq, peak quantitation for ChIP and percent methylation over whatever windows you used for methylation data.
+
 ## The metadata spreadsheet
 
+## Submission from Babraham
 
+- contact Babraham Bioinformatics with a list of files, the sample name as well as the desired name of the sample for the manuscript, e.g.:
+
+```
+SierraID      sample name on Sierra                name in manuscript
+4777           lane4777_TAGCATAG_GAGAGTCT_....        Dnmt1_WT_rep1
+...
+```
+
+- we will take a look, collate all necessary files and return a 
+- please do 
 https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx
 
 ## Quantified files

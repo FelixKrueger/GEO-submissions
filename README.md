@@ -8,13 +8,13 @@ The entire submission process is described in detail over at the [GEO high-throu
 
 To submit sequencing data to the GEO repository you will need:
  - raw sequencing data (`FastQ` files), as well as 
- - some kind of application-sepcific quantitation (a `BAM` file is not sufficient), as well as
+ - some kind of application-specific quantitation (a `BAM` file is not sufficient), as well as
  - a metadata spreadsheet detailing the experiment and how the files are related to each other
  
 
-## Submission from Babraham
+## Submission from Babraham - step-by-step
 
-- contact Babraham Bioinformatics with a list of files, the sample name as well as the desired name of the sample for the manuscript, e.g.:
+- contact Babraham Bioinformatics with a list of files you wish to submit (and where we can find the data, e.g. a Sierra SampleID or LaneID), their sample name on Sierra as well as the desired name of the sample for the manuscript, e.g.:
 
 ```
 SierraID      sample name on Sierra                name in manuscript

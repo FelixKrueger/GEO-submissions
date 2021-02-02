@@ -2,10 +2,15 @@
 
 Here are some notes about GEO submissions; some are more general, others are specifically tailored towards submissions at the Babraham Institute.
 
-https://www.ncbi.nlm.nih.gov/geo/info/seq.html
+The entire submission process is described in detail over at the [GEO high-throughput sequencing data submission](https://www.ncbi.nlm.nih.gov/geo/info/seq.html), here we focus on the more practical implications.
 
-
-To submit to these repositories you'll need all of the raw (fastq) sequence data, plus some kind of quantitation.  The quantitation can be anything, but we'd normally use per gene expression measures for RNA-Seq, peak quantitation for ChIP and percent methylation over whatever windows you used for methylation data.
+To submit sequencing data to the GEO repository you will need:
+ - raw sequencing data (`FastQ` files), as well as 
+ - some kind of application-sepcific quantitation (a `BAM` file is not sufficient)
+ - a metadata spreadsheet detailing the experiment and how the files are related to each other
+ 
+ 
+ The quantitation can be anything, but we'd normally use per gene expression measures for RNA-Seq, peak quantitation for ChIP and percent methylation over whatever windows you used for methylation data.
 
 ## The metadata spreadsheet
 
@@ -15,12 +20,13 @@ To submit to these repositories you'll need all of the raw (fastq) sequence data
 
 ```
 SierraID      sample name on Sierra                name in manuscript
-4777           lane4777_TAGCATAG_GAGAGTCT_....        Dnmt1_WT_rep1
+  4777     lane4777_TAGCATAG_GAGAGTCT_....           Dnmt1_WT_rep1
 ...
 ```
 
-- we will take a look, collate all necessary files and return a 
-- please do 
+- we will take a look, collate all necessary files and return to you a the metadata spreadsheet (see above) to fill in the details.
+- please **do not** start by filling in the metadata spreadsheet with filenames and details, as this will make it much harder for us to produce the spreadsheet, and is also considerably more prone to errors.
+
 https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx
 
 ## Quantified files

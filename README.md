@@ -19,7 +19,7 @@ To submit sequencing data to the GEO repository you will need:
 ```
 SierraID      sample name on Sierra                name in manuscript
   4777     lane4777_TAGCATAG_GAGAGTCT_....           Dnmt1_WT_rep1
-...
+   ...
 ```
 
 - we will take a look, collate all necessary files and return to you a metadata spreadsheet (see below) to fill in the details
@@ -49,7 +49,15 @@ Acceptable here would be peak calling files and/or annotation, but also a tiled-
 
 ## The metadata spreadsheet
 
-A template for the metadata spreadsheet can be [downloaded from GEO](https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx). This is really just for your information, as we will aim to send you this spreadsheet once it has been populated with the technical information about files, their md5sums etc.
+A template for the metadata spreadsheet can be [downloaded from GEO](https://www.ncbi.nlm.nih.gov/geo/info/examples/seq_template.xlsx). 
+
+**What we will do:**
+
+We aim to send you the spreadsheet once it has been populated with the technical information about files, their md5sums etc.
+
+**What you need to do:**
+
+All sections that need be filled in are **marked in bold**, some additional information (e.g. 'growth protocol' or 'treatment protocol') is welcome but optional. You can hover over the relevant fields with the mouse to see what is expected in each of those fields. Many of the contents can probably be copied from the materials and methods section of the manuscript, so it shouldn’t be too much hassle.
 
 
 ## Reviewer token

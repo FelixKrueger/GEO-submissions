@@ -57,7 +57,7 @@ We aim to send you the spreadsheet once it has been populated with the technical
 
 **What you need to do:**
 
-All sections that need be filled in are **marked in bold**, some additional information (e.g. 'growth protocol' or 'treatment protocol') is welcome but optional. You can hover over the relevant fields with the mouse to see what is expected in each of those fields. Many of the contents can probably be copied from the materials and methods section of the manuscript, so it shouldn’t be too much hassle.
+All sections that need be filled in are **marked in bold**, some additional information (e.g. 'growth protocol' or 'treatment protocol') are welcome but optional. You can hover over the relevant fields with the mouse to see what is expected in each of those fields. Many of the contents can probably be copied from the materials and methods section of the manuscript, so it shouldn’t be too much hassle.
 
 
 ## Reviewer token
